@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+        .header {
+            margin-top: 50px;
+            background-color: #fefefe;
+        }
+        .container {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        }
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+        .table-bordered {
+            border: 1px solid #000000;
+        }
+        .thead {
+            border-bottom: 1px solid #000000;
+        }
+        </style>
+    <title>Moment5:2</title>
+</head>
+<body>
+    <div class="header">
+    <h1>Moment 5 - Del 2</h1>
+    </div>
+<div class="container">
+<h2>Genomförda kurser</h2>
+<div class="row">
+    <div class="course-list">
+        <table class="table-bordered">
+            <thead class="thead">
+                <th>Namn:</th>
+                <th>Kod:</th>
+                <th>Progression:</th>
+                <th>Kursplan:</th>
+            </thead>
+            <tbody class="tbody">
+
+            </tbody>
+        </table>
+    </div>
+</div>
+<h2>Lägg till kurs</h2>
+<div id="course-form">
+    <form>
+        <label for="code">Kod:</label><br>
+        <input type="text" name="code" id="code"><br>
+        <label for="name">Namn:</label><br>
+        <input type="text" name="name" id="name"><br>
+        <label for="progression">Progression:</label><br>
+        <input type="text" name="progression" id="progression"><br>
+        <label for="course_syllabus">Syllabus:</label><br>
+        <input type="text" name="course_syllabus" id="course_syllabus"><br>
+        <input type="submit" value="Lägg till" id="addCourse">
+    </form>
+</div>
+</div> 
+</body>
+<script src="js/main.js"></script>
+</html>
