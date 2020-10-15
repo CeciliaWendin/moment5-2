@@ -1,0 +1,70 @@
+/*Variabler*/
+/*-- Buttons 
+@mixin buttons($bg) {
+    padding: 10px 20px;
+    background-color: $bg;
+    color: #ffffff;
+    font-family: $font1;
+    &:hover {
+        background: darken($bg, 10%);
+    }
+}
+.button1 {
+    @include buttons($green);
+}
+.button2 {
+    @include buttons($blue);
+}
+/*-- Fonts 
+body {
+    font-family: 100% $font2;
+    color: $textcolor;
+    background-color: $bgcolor;
+}
+h1 {
+    font-family: 100% $font1;
+    color: $beige;
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+}
+h4 {
+    font-family: 100% $font1;
+    color: $beige;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.main-nav {
+    font-family: $font1;
+}--*/
+.header {
+  margin-top: 50px;
+  background-color: lightblue; }
+
+.container {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px; }
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: darkblue; }
+
+table,
+th,
+td {
+  padding: 10px;
+  border: 1px solid darkblue;
+  border-collapse: collapse; }
+
+/*-- Buttons --*/
+
+/*# sourceMappingURL=main.css.map */

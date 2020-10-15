@@ -1,0 +1,33 @@
+@import 'components';
+
+   .header {
+            margin-top: 50px;
+            background-color: $bgcolor;
+        }
+        .container {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        }
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            margin-top: 30px;
+            color: $textcolor;
+        }
+      table,
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid $textcolor;
+        border-collapse: collapse;
+        }
+        /*-- Buttons --*/
+    input[type=button], input[type=submit], input[type=reset] {
+    padding: 10px 20px;
+    background-color: $darkblue;
+    color: #ffffff;
+  }
+
+     
